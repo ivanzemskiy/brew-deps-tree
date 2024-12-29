@@ -1,0 +1,475 @@
+ack
+
+alacritty
+
+asciidoctor
+└── ruby
+    ├── libyaml
+    └── openssl@3
+        └── ca-certificates
+
+asciinema
+└── python@3.13
+    ├── mpdecimal
+    ├── openssl@3
+    │   └── ca-certificates
+    ├── sqlite
+    │   └── readline
+    └── xz
+
+autoconf
+└── m4
+
+automake
+└── autoconf
+    └── m4
+
+borkdude/brew/babashka
+
+bash
+
+bat
+├── libgit2
+│   ├── libssh2
+│   │   └── openssl@3
+│   │       └── ca-certificates
+│   └── openssl@3
+│       └── ca-certificates
+└── oniguruma
+
+brotli
+
+c-ares
+
+ca-certificates
+
+cabal-install
+└── ghc
+
+certifi
+└── ca-certificates
+
+cheat
+
+choose-rust
+
+clojure/tools/clojure
+└── rlwrap
+    └── readline
+
+cmake
+
+curl
+├── brotli
+├── libnghttp2
+├── libssh2
+│   └── openssl@3
+│       └── ca-certificates
+├── openssl@3
+│   └── ca-certificates
+├── rtmpdump
+│   └── openssl@3
+│       └── ca-certificates
+├── zstd
+│   ├── lz4
+│   └── xz
+└── libidn2
+    ├── libunistring
+    └── gettext
+        └── libunistring
+
+curlie
+
+docutils
+└── python@3.13
+    ├── mpdecimal
+    ├── openssl@3
+    │   └── ca-certificates
+    ├── sqlite
+    │   └── readline
+    └── xz
+
+dog
+
+duf
+
+dust
+
+emacs
+
+eza
+└── libgit2
+    ├── libssh2
+    │   └── openssl@3
+    │       └── ca-certificates
+    └── openssl@3
+        └── ca-certificates
+
+fd
+
+font-meslo-lg-nerd-font
+
+gdbm
+
+gettext
+└── libunistring
+
+ghc
+
+ghc@9.8
+
+git
+├── gettext
+│   └── libunistring
+└── pcre2
+
+git-delta
+├── libgit2
+│   ├── libssh2
+│   │   └── openssl@3
+│   │       └── ca-certificates
+│   └── openssl@3
+│       └── ca-certificates
+└── oniguruma
+
+glances
+├── certifi
+│   └── ca-certificates
+└── python@3.13
+    ├── mpdecimal
+    ├── openssl@3
+    │   └── ca-certificates
+    ├── sqlite
+    │   └── readline
+    └── xz
+
+gnu-sed
+
+go
+
+gping
+
+grep
+└── pcre2
+
+htop
+└── ncurses
+
+httpie
+├── certifi
+│   └── ca-certificates
+└── python@3.13
+    ├── mpdecimal
+    ├── openssl@3
+    │   └── ca-certificates
+    ├── sqlite
+    │   └── readline
+    └── xz
+
+icu4c@76
+
+iftop
+
+iterm2
+
+jq
+└── oniguruma
+
+karabiner-elements
+
+less
+├── ncurses
+└── pcre2
+
+libevent
+└── openssl@3
+    └── ca-certificates
+
+libgit2
+├── libssh2
+│   └── openssl@3
+│       └── ca-certificates
+└── openssl@3
+    └── ca-certificates
+
+libidn2
+├── libunistring
+└── gettext
+    └── libunistring
+
+libnghttp2
+
+libssh2
+└── openssl@3
+    └── ca-certificates
+
+libtool
+└── m4
+
+libunistring
+
+libuv
+
+libvterm
+
+libyaml
+
+libzip
+├── xz
+└── zstd
+    ├── lz4
+    └── xz
+
+llvm
+├── python@3.13
+│   ├── mpdecimal
+│   ├── openssl@3
+│   │   └── ca-certificates
+│   ├── sqlite
+│   │   └── readline
+│   └── xz
+├── xz
+├── z3
+└── zstd
+    ├── lz4
+    └── xz
+
+lpeg
+
+lua
+
+luajit
+
+luv
+└── libuv
+
+lz4
+
+m4
+
+mas
+
+mitmproxy
+├── openssl@1.1
+│   └── ca-certificates
+├── protobuf
+│   └── abseil
+├── python@3.11
+│   ├── mpdecimal
+│   ├── openssl@3
+│   │   └── ca-certificates
+│   ├── sqlite
+│   │   └── readline
+│   └── xz
+└── six
+
+mpdecimal
+
+msgpack
+
+ncurses
+
+neovim
+├── libvterm
+├── msgpack
+├── gettext
+│   └── libunistring
+├── libuv
+├── lpeg
+├── luajit
+├── luv
+│   └── libuv
+├── tree-sitter
+└── unibilium
+
+ninja
+
+ocaml
+
+oniguruma
+
+openssl@1.1
+└── ca-certificates
+
+openssl@3
+└── ca-certificates
+
+pandoc
+
+pcre
+
+pcre2
+
+pkgconf
+
+procs
+
+protobuf
+└── abseil
+
+python@3.10
+├── gdbm
+├── mpdecimal
+├── openssl@3
+│   └── ca-certificates
+├── readline
+├── sqlite
+│   └── readline
+└── xz
+
+python@3.11
+├── mpdecimal
+├── openssl@3
+│   └── ca-certificates
+├── sqlite
+│   └── readline
+└── xz
+
+python@3.12
+├── mpdecimal
+├── openssl@3
+│   └── ca-certificates
+├── sqlite
+│   └── readline
+└── xz
+
+python@3.13
+├── mpdecimal
+├── openssl@3
+│   └── ca-certificates
+├── sqlite
+│   └── readline
+└── xz
+
+rar
+
+readline
+
+ripgrep
+└── pcre2
+
+rlwrap
+└── readline
+
+rtmpdump
+└── openssl@3
+    └── ca-certificates
+
+ruby
+├── libyaml
+└── openssl@3
+    └── ca-certificates
+
+rust
+├── libgit2
+│   ├── libssh2
+│   │   └── openssl@3
+│   │       └── ca-certificates
+│   └── openssl@3
+│       └── ca-certificates
+├── libssh2
+│   └── openssl@3
+│       └── ca-certificates
+├── llvm
+│   ├── python@3.13
+│   │   ├── mpdecimal
+│   │   ├── openssl@3
+│   │   │   └── ca-certificates
+│   │   ├── sqlite
+│   │   │   └── readline
+│   │   └── xz
+│   ├── xz
+│   ├── z3
+│   └── zstd
+│       ├── lz4
+│       └── xz
+├── openssl@3
+│   └── ca-certificates
+├── pkgconf
+└── zstd
+    ├── lz4
+    └── xz
+
+sd
+
+sevenzip
+
+showkey
+
+six
+
+sphinx-doc
+├── certifi
+│   └── ca-certificates
+└── python@3.13
+    ├── mpdecimal
+    ├── openssl@3
+    │   └── ca-certificates
+    ├── sqlite
+    │   └── readline
+    └── xz
+
+sqlite
+└── readline
+
+swig
+└── pcre2
+
+the_silver_searcher
+├── pcre
+└── xz
+
+tldr
+└── libzip
+    ├── xz
+    └── zstd
+        ├── lz4
+        └── xz
+
+tmux
+├── libevent
+│   └── openssl@3
+│       └── ca-certificates
+├── ncurses
+└── utf8proc
+
+tnftp
+
+tree
+
+tree-sitter
+
+unibilium
+
+utf8proc
+
+uv
+
+viscosity
+
+watch
+└── ncurses
+
+wget
+├── libidn2
+│   ├── libunistring
+│   └── gettext
+│       └── libunistring
+├── openssl@3
+│   └── ca-certificates
+├── gettext
+│   └── libunistring
+└── libunistring
+
+xz
+
+z3
+
+zsh
+├── pcre
+└── ncurses
+
+zstd
+├── lz4
+└── xz
+
