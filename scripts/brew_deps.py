@@ -52,11 +52,6 @@ def parse_dep(acc: dict, s: str):
     return acc
 
 
-# parse_dep("curl [build] [test] [implicit]", dict())
-# parse_dep(":Xcode >= 14.2 (on macOS) [build]", dict())
-# parse_dep(":macOS", dict())
-
-
 async def run(cmd: str) -> str:
     async with sem:
         logger.debug(">>> %s", cmd)
