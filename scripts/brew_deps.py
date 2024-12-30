@@ -77,8 +77,6 @@ async def process_brew(installed):
     )
     logger.debug(formulas)
     logger.debug(casks)
-    # formulas = formulas[:3]
-    # casks = casks[:3]
 
     def brew_deps(f):
         return run(
