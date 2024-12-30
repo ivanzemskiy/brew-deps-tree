@@ -14,7 +14,6 @@
              "build": ["python@3.12", "python@3.13"],
              "test": ["python@3.12", "python@3.13"]},
  "cheat": {"build": ["go"]},
- "choose-rust": {"build": ["rust"]},
  "clojure": {"runtime": ["openjdk", "rlwrap"]},
  "cmake": {},
  "curl": {"runtime": ["brotli", "libidn2", "libnghttp2", "libssh2", "openssl@3", "rtmpdump", "zstd"],
