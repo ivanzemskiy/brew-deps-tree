@@ -82,6 +82,7 @@
  "pcre": {},
  "pcre2": {},
  "perl": {"runtime": ["berkeley-db@5", "gdbm"]},
+ "pipx": {"runtime": ["python@3.13"]},
  "pkgconf": {},
  "procs": {"build": ["rust"]},
  "protobuf": {"runtime": ["abseil"], "build": ["cmake", "googletest"]},
