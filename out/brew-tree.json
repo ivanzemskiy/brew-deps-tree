@@ -885,6 +885,7 @@
                                                {"sqlite": {"runtime": ["readline"]}},
                                                "xz"],
                                    "build": ["pkgconf"]}}]},
+ "speedtest": {},
  "sphinx-doc": {"runtime": [{"certifi": {"runtime": ["ca-certificates"],
                                          "build": [{"python@3.12": {"runtime": ["mpdecimal",
                                                                                 {"openssl@3": {"runtime": ["ca-certificates"]}},

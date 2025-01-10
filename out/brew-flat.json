@@ -98,6 +98,7 @@
  "sevenzip": {},
  "showkey": {"build": ["xmlto"]},
  "six": {"build": ["python@3.12", "python@3.13"], "test": ["python@3.12", "python@3.13"]},
+ "speedtest": {},
  "sphinx-doc": {"runtime": ["certifi", "python@3.13"]},
  "sqlite": {"runtime": ["readline"]},
  "swig": {"runtime": ["pcre2"]},
