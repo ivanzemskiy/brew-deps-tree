@@ -60,6 +60,7 @@
  "m4": {},
  "mas": {"build": [":Xcode >= 14.2 (on macOS)"], "runtime": [":macOS"]},
  "mitmproxy": {"runtime": ["openssl@1.1", "protobuf", "python@3.11", "six"], "build": ["rust"]},
+ "mosh": {"build": ["pkgconf", "tmux"], "runtime": ["protobuf"]},
  "mpdecimal": {},
  "msgpack": {"build": ["cmake"]},
  "ncurses": {"build": ["pkgconf"]},
