@@ -38,6 +38,7 @@
  "httpie": {"runtime": ["certifi", "python@3.13"]},
  "iftop": {},
  "inetutils": {"build": ["help2man"], "runtime": ["libidn2"]},
+ "iproute2mac": {"runtime": [":macOS", "python@3.13"]},
  "jq": {"runtime": ["oniguruma"]},
  "less": {"runtime": ["ncurses", "pcre2"]},
  "libevent": {"build": ["autoconf", "automake", "libtool", "pkgconf"], "runtime": ["openssl@3"]},
