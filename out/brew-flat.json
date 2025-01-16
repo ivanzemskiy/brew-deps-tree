@@ -54,6 +54,7 @@
  "libvterm": {"build": ["libtool"]},
  "libyaml": {"build": ["autoconf", "automake", "libtool"]},
  "libzip": {"build": ["cmake", "curl"], "test": ["curl"], "implicit": ["curl"], "runtime": ["xz", "zstd"]},
+ "links": {"runtime": ["openssl@3"], "build": ["pkgconf"]},
  "llvm": {"build": ["cmake", "ninja", "swig"], "runtime": ["python@3.13", "xz", "z3", "zstd"]},
  "lpeg": {"build": ["lua", "luajit"], "test": ["lua", "luajit"]},
  "lua": {},

@@ -444,6 +444,7 @@
                                    "build": ["pkgconf"],
                                    "test": ["pkgconf"]}}],
             "runtime": ["xz", {"zstd": {"build": ["cmake"], "runtime": ["lz4", "xz"]}}]},
+ "links": {"runtime": [{"openssl@3": {"runtime": ["ca-certificates"]}}], "build": ["pkgconf"]},
  "llvm": {"build": ["cmake", "ninja", {"swig": {"runtime": ["pcre2"]}}],
           "runtime": [{"python@3.13": {"runtime": ["mpdecimal",
                                                    {"openssl@3": {"runtime": ["ca-certificates"]}},
