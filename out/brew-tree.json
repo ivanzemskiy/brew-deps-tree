@@ -1,5 +1,6 @@
 {"abseil": {"build": ["cmake", {"googletest": {"build": ["cmake"]}}], "test": ["cmake"]},
  "ack": {"build": ["pod2man"]},
+ "arp-scan": {"build": [{"autoconf": {"runtime": ["m4"]}}, {"automake": {"runtime": [{"autoconf": {"runtime": ["m4"]}}]}}]},
  "asciidoctor": {"runtime": [{"ruby": {"build": [{"autoconf": {"runtime": ["m4"]}},
                                                  "pkgconf",
                                                  {"rust": {"runtime": [":macOS >= 10.12 (or Linux)",

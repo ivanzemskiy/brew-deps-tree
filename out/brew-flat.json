@@ -1,5 +1,6 @@
 {"abseil": {"build": ["cmake", "googletest"], "test": ["cmake"]},
  "ack": {"build": ["pod2man"]},
+ "arp-scan": {"build": ["autoconf", "automake"]},
  "asciidoctor": {"runtime": ["ruby"]},
  "asciinema": {"runtime": ["python@3.13"]},
  "autoconf": {"runtime": ["m4"]},
