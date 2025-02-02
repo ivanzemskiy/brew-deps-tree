@@ -23,4 +23,4 @@ usage: brew_deps.py [-h] [-t TARGET | -v | -q] [formula ...]
 
 produces `brew-tree.json` which includes all the `build`/`runtime`/`test` ... dependencies
 
-can be quickly checked using `jg` or a similar tool
+json can be quickly checked using `jg` or a similar tool
