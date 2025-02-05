@@ -134,5 +134,5 @@
  "wget": {"runtime": ["gettext", "libidn2", "libunistring", "openssl@3"], "build": ["pkgconf"]},
  "xz": {},
  "z3": {"build": ["cmake", "python@3.13"], "test": ["python@3.13"]},
- "zsh": {"runtime": ["ncurses", "pcre"]},
+ "zsh": {"build": ["autoconf"], "runtime": ["ncurses", "pcre2"]},
  "zstd": {"build": ["cmake"], "runtime": ["lz4", "xz"]}}

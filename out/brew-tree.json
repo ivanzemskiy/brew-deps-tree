@@ -1578,5 +1578,5 @@
                                               {"sqlite": {"runtime": ["readline"]}},
                                               "xz"],
                                   "build": ["pkgconf"]}}]},
- "zsh": {"runtime": [{"ncurses": {"build": ["pkgconf"]}}, "pcre"]},
+ "zsh": {"build": [{"autoconf": {"runtime": ["m4"]}}], "runtime": [{"ncurses": {"build": ["pkgconf"]}}, "pcre2"]},
  "zstd": {"build": ["cmake"], "runtime": ["lz4", "xz"]}}
